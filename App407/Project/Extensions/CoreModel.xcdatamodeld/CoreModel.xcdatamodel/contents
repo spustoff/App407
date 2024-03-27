@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22757" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="EquipModel" representedClassName="EquipModel" syncable="YES" codeGenerationType="class">
+        <attribute name="eqDate" optional="YES" attributeType="String"/>
+        <attribute name="eqMoney" optional="YES" attributeType="String"/>
+        <attribute name="eqTitle" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="IncomeModel" representedClassName="IncomeModel" syncable="YES" codeGenerationType="class">
+        <attribute name="incDate" optional="YES" attributeType="String"/>
+        <attribute name="incHours" optional="YES" attributeType="String"/>
+        <attribute name="incMoney" optional="YES" attributeType="String"/>
+        <attribute name="incNote" optional="YES" attributeType="String"/>
+        <attribute name="incOper" optional="YES" attributeType="String"/>
+        <attribute name="incTitle" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="NotesModel" representedClassName="NotesModel" syncable="YES" codeGenerationType="class">
+        <attribute name="notNote" optional="YES" attributeType="String"/>
+        <attribute name="notTitle" optional="YES" attributeType="String"/>
+    </entity>
+</model>
