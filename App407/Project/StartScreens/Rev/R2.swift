@@ -26,24 +26,24 @@ struct R2: View {
                     HStack {
                         
                         Circle()
-                            .fill(Color("prim").opacity(0.4))
+                            .fill(Color("prim2").opacity(0.4))
                             .frame(width: 8, height: 8)
                         
                         Circle()
-                            .fill(Color("prim"))
+                            .fill(Color("prim2"))
                             .frame(width: 8, height: 8)
 
                         Circle()
-                            .fill(Color("prim").opacity(0.4))
+                            .fill(Color("prim2").opacity(0.4))
                             .frame(width: 8, height: 8)
                     }
                     
                     Text("Equipment collection")
-                        .foregroundColor(Color("prim"))
+                        .foregroundColor(Color("prim2"))
                         .font(.system(size: 26, weight: .bold))
                     
                     Text("Your set-up in one place")
-                        .foregroundColor(Color("prim"))
+                        .foregroundColor(.gray)
                         .font(.system(size: 16, weight: .regular))
                     
                     NavigationLink(destination: {
@@ -58,7 +58,7 @@ struct R2: View {
                             .font(.system(size: 15, weight: .regular))
                             .frame(maxWidth: .infinity)
                             .frame(height: 50)
-                            .background(RoundedRectangle(cornerRadius: 15).fill(Color("prim")))
+                            .background(RoundedRectangle(cornerRadius: 15).fill(Color("prim2")))
                             .padding(.vertical)
                     })
                 }

@@ -12,7 +12,7 @@ struct LoadingView: View {
 
         ZStack {
             
-            Color("prim")
+            Color("prim2")
                 .ignoresSafeArea()
             
             VStack {
@@ -20,10 +20,12 @@ struct LoadingView: View {
                 Image("logo_big")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 250, height: 250)
+                    .frame(width: 200, height: 200)
             }
             
             VStack {
+                
+                Spacer()
                 
                 ProgressView()
                     .padding()

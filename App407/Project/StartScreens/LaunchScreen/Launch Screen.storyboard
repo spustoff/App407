@@ -24,12 +24,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo_big" translatesAutoresizingMaskIntoConstraints="NO" id="NeB-Lb-zBO">
-                                <rect key="frame" x="-75" y="282" width="543" height="289"/>
+                                <rect key="frame" x="53" y="346" width="286" height="161"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
-                        <color key="backgroundColor" name="prim"/>
+                        <color key="backgroundColor" name="prim2"/>
                         <constraints>
                             <constraint firstItem="Bcu-3y-fUS" firstAttribute="centerX" secondItem="obG-Y5-kRd" secondAttribute="centerX" id="5cz-MP-9tL"/>
                             <constraint firstItem="obG-Y5-kRd" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="20" symbolic="YES" id="SfN-ll-jLj"/>
@@ -43,9 +43,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo_big" width="570" height="570"/>
-        <namedColor name="prim">
-            <color red="0.28200000524520874" green="0.25099998712539673" blue="0.59600001573562622" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        <image name="logo_big" width="200" height="150"/>
+        <namedColor name="prim2">
+            <color red="0.7254902124" green="0.2470588088" blue="0.37647059560000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
     </resources>
 </document>
